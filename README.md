@@ -162,3 +162,8 @@ You can find solutions in the following links:
 ### Version 0.0.1: netcat (legacy)
 
 ![Alt Text](readme/exploit-001.gif)
+
+# 自动运行frpc反向代理请参考 auto_startup/README.md
+# 自动运行frpc反向代理请参考 auto_startup/README.md
+# 自动运行frpc反向代理请参考 auto_startup/README.md
+# 自动运行frpc反向代理请参考 auto_startup/README.md 

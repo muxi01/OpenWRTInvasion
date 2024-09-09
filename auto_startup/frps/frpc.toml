@@ -1,0 +1,23 @@
+serverAddr = "x.x.x.x"
+serverPort = 9600
+
+auth.method = "token"
+auth.token = "12345678"
+
+
+[[proxies]]
+name = "loccal_host0_0"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 80
+remotePort = 9680
+
+
+[[proxies]]
+name = "loccal_host101_1"
+type = "tcp"
+localIP = "192.168.0.101"
+localPort = 22
+remotePort = 9622
+
+

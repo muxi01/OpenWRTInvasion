@@ -1,0 +1,55 @@
+serverAddr = "FRPC_SERVER_IP"
+serverPort = 38400
+
+auth.method = "token"
+auth.token = "8d0428b37d8a760ba32019e899c7a596"
+
+
+[[proxies]]
+name = "loccal_host0_0"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 23
+remotePort = 38023
+
+
+[[proxies]]
+name = "loccal_host0_0"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 80
+remotePort = 38080
+
+
+[[proxies]]
+name = "loccal_host101_1"
+type = "tcp"
+localIP = "192.168.0.101"
+localPort = 22
+remotePort = 38101
+
+
+[[proxies]]
+name = "loccal_host101_2"
+type = "tcp"
+localIP = "192.168.0.101"
+localPort = 80
+remotePort = 28201
+
+
+[[proxies]]
+name = "loccal_host102_1"
+type = "tcp"
+localIP = "192.168.0.102"
+localPort = 554
+remotePort = 38102
+
+
+[[proxies]]
+name = "loccal_host103_1"
+type = "tcp"
+localIP = "192.168.0.103"
+localPort = 554
+remotePort = 38103
+
+
