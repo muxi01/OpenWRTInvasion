@@ -1,0 +1,10 @@
+# kernel source code 
+* git clone github.com/armbian/linux-rockchip.git -b rk-5.10-rkr6 --depth=1
+
+# patchs
+linux-rockchip-rk3568-z96a-legacy.config  readme.md  rk3568-z96a.dts  z96a_cec_deadlock.patch  z96a-rk817.patch
+
+#gcc 必须使用ubuntu官方源
+sudo apt update
+sudo apt install gcc-11-aarch64-linux-gnu
+
